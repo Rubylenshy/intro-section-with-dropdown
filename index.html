@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+  <header>
+    <nav class="nav-mobile">
+      <div class="mobile-logo">
+        <img src="assets/images/logo.svg" alt="Snap">
+      </div>
+      <button class="hamburger" title="Menu">
+        <div class="hamburger-bar"></div>
+      </button>
+    </nav>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-navigation">
+      <div class="menu-white">
+        <button class="close-hamburger" title="Menu">
+          <div class="close-hamburger-bar"></div>
+        </button>
+        <ul class="mobile-li-links">
+          <li class="li-features">Features <img src="assets/images/icon-arrow-down.svg" alt="" class="mobile-arrow" class=""></li>
+          <ul class="feature-dropdown">
+            <li><img src="assets/images/icon-todo.svg" alt=""> Todo List</li>
+            <li><img src="assets/images/icon-calendar.svg" alt=""> Calendar</li>
+            <li><img src="assets/images/icon-reminders.svg" alt=""> Reminders</li>
+            <li><img src="assets/images/icon-planning.svg" alt=""> Planning</li>
+          </ul>
+          <li class="li-company">Company <img src="assets/images/icon-arrow-down.svg" alt="" class="mobile-arrow"></li>
+          <ul class="company-dropdown">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          </ul>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+        <div class="mobile-nav-btns">
+          <a href=""><button class="login">Login</button></a>
+          <a href=""><button class="register">Register</button></a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav-desktop">
+      <div class="nav-links">
+        <img src="assets/images/logo.svg" alt="Snap" id="logo">
+        <ul class="li-links">
+          <li class="li-features">Features <img src="assets/images/icon-arrow-down.svg" alt="" class="desktop-arrow"></li>
+          <ul class="feature-dropdown">
+            <li><img src="assets/images/icon-todo.svg" alt=""> Todo List</li>
+            <li><img src="assets/images/icon-calendar.svg" alt=""> Calendar</li>
+            <li><img src="assets/images/icon-reminders.svg" alt=""> Reminders</li>
+            <li><img src="assets/images/icon-planning.svg" alt=""> Planning</li>
+          </ul>
+          <li class="li-company">Company <img src="assets/images/icon-arrow-down.svg" alt="" class="desktop-arrow"></li>
+          <ul class="company-dropdown">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          </ul>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+      </div>
+      <div class="nav-btns">
+        <a href=""><button class="login">Login</button></a>
+        <a href=""><button class="register">Register</button></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="mobile-hero">
+        <img src="assets/images/image-hero-mobile.png" alt="A man holding a laptop illustration">
+      </div>
+      <div class="desktop-hero">
+        <img src="assets/images/image-hero-desktop.png" alt="A man holding a laptop illustration">
+      </div>
+      <div class="details">
+        <h1 class="heading">Make <br> remote work</h1>
+        <p class="paragraph">
+          Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+          <a href="#"><button class="learn-more">Learn More</button></a>
+        <div class="clients">
+          <img src="assets/images/client-databiz.svg" alt="Databiz">
+          <img src="assets/images/client-audiophile.svg" alt="Audiophile">
+          <img src="assets/images/client-meet.svg" alt="Meet">
+          <img src="assets/images/client-maker.svg" alt="Maker">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
