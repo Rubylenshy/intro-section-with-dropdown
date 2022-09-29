@@ -25,7 +25,6 @@ for (let i = 0; i < li_feature.length; i++) {
         feature[i].classList.toggle('block');
         mobile_arrow[0].classList.toggle('arrow-drop')
         desktop_arrow[0].classList.toggle('arrow-drop')
-        console.log('clicked 3')
     })
 }
 
@@ -37,7 +36,7 @@ for (let i = 0; i < li_company.length; i++) {
         company[i].classList.toggle('block');
         mobile_arrow[1].classList.toggle('arrow-drop')
         desktop_arrow[1].classList.toggle('arrow-drop')
-        console.log('clicked 4')
+    
     })
     
 }
