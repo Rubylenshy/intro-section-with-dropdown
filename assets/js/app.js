@@ -29,10 +29,9 @@ for (let i = 0; i < li_feature.length; i++) {
 }
 
 for (let i = 0; i < li_company.length; i++) {
-    const element = li_company[i];
     const company = document.querySelectorAll('.company-dropdown')
     
-    element.addEventListener('click', ()=>{
+    li_company[i].addEventListener('click', ()=>{
         company[i].classList.toggle('block');
         mobile_arrow[1].classList.toggle('arrow-drop')
         desktop_arrow[1].classList.toggle('arrow-drop')
