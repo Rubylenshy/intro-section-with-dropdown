@@ -15,7 +15,7 @@ Thanks for checking out this front-end coding challenge.
 
 ### Links
 
-- Live Site URL: [Intro Section with dropdown navigation]()
+- Live Site URL: [Intro Section with dropdown navigation](https://rubylenshy.github.io/intro-section-with-dropdown/)
 
 ## Author
 
